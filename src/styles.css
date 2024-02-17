@@ -1,0 +1,436 @@
+
+nav{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+ }
+ button{
+     font-size: 20px;
+     background-color: black;
+     color: white;
+     border: none;
+ }
+ article{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    padding: .8rem;
+    font-size: .8rem;
+ }
+ .bi-lightning-fill{
+    color: gold;
+}
+.main{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.women{
+    background-image: url("../public/images/women.jpg");
+    background-size: cover;
+}
+.men{
+    background-image: url("../public/images/men.jpg");
+    background-size: cover;
+}
+.kids{
+    background-image: url("../public/images/kids.jpg");
+    background-size: cover;
+}
+.delivery{
+    margin-top: 15px;
+}
+.main-footer{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.main-footer-icon{
+    display: inline-block;
+    color: orangered;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding-right: 1rem;
+}
+.row{
+    display: flex;
+   }
+h4{
+    padding-top: 5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+   }
+  p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  hr{
+    margin: 20px 50px 0 50px;
+  }
+  .first-content{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .h2{
+    font-size: 1.2rem;
+    color: gray;
+  }
+  .p1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .p2{
+      font-size: 1.2rem;
+      text-align: center;
+      color: gray;
+  }
+  .section-1{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    height: 50vh;
+    margin-left: 150px;
+    margin-right: 150px;
+    grid-gap: 15px;
+    position: relative;
+  }
+  .section-img{
+    background-image: url("../public/images/bagcollection.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  .section-title-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+  }
+ 
+  .section-printedshirt{
+    background-image: url("../public/images/printedmenshirt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .section-1-2-title{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: center;
+    color: black;
+    margin-top: 130px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    padding-left: 80px;
+  }
+  .offer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 68, 0);
+    text-align: center;
+    padding: 5px;
+    font-size: 19px;
+    align-items: center;
+    text-align: center
+  }
+  .section-2{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    height: 50vh;
+    margin-left: 150px;
+    margin-right: 150px;
+    grid-gap: 15px;
+    margin-top: 20px;
+  }
+  .section-2-title{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .section-2img{
+    background-image: url("../public/images/basicwomen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .section-img2{
+    background-image: url("../public/images/medium4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .section-3{
+    margin-top: 70px;
+    height: 40vh;
+    text-align: center; 
+  }
+ h1{
+    font-size: 2rem;
+ }
+ .section-4{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  height: 70vh ;
+  margin-top: -80px;
+  grid-gap: 20px;
+ 
+}
+.product1{
+  background-image: url("../public/images/product1.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.product2{
+  background-image: url("../public/images/product2.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.product3{
+  background-image: url("../public/images/product3.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.product4{
+  background-image: url("../public/images/product4.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+ .section-5{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  height: 120vh ;
+  grid-gap: 20px;
+ 
+}
+.product5{
+  background-image: url("../public/images/product5.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.product6{
+  background-image: url("../public/images/product6.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.product7{
+  background-image: url("../public/images/product7.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.product8{
+  background-image: url("../public/images/product8.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.discover-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-left: 600px;
+  margin-right: 600px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+@media screen and (orientation:landscape){
+    body{
+        display: grid;
+        grid-template-columns: 2fr 8fr 2fr;
+    }
+    header{
+        grid-row: 1;
+        grid-column: 1/4;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    span{
+        margin-right: 10px;
+    }
+    button{
+        display: none;
+    }
+}
+    article{
+        margin-top: .6rem;
+        grid-row: 2;
+        grid-column: 1/4;
+    }
+    section{
+        margin-top: 1rem;
+        grid-row: 3;
+        grid-column: 1/4;
+    }
+    footer{
+        grid-row: 4;
+        grid-column: 1/4;
+    }
+
+@media screen and (orientation:portrait){
+    body{
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+    header{
+        grid-row: 1;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-items, .shortcut-icons{
+        display: none;
+    }
+    article{
+        margin-top: .6rem;
+        grid-row: 2;
+    }
+    section{
+        margin-top: .6rem;
+        grid-row: 3;
+    }
+   .main{
+    display: grid;
+    grid-template-columns: 12fr;
+    height: 100%;
+    margin-top: 10px;
+   }
+   .women{
+    height: 80vh;
+    background-size: cover;
+   }
+   .men{
+    height: 80vh;
+    margin-top: .4rem;
+   }
+   .kids{
+    height: 60vh;
+    margin-top: .4rem;
+   }
+   .delivery{
+    margin-top: .4rem;
+   }
+  .main-footer{
+    display: grid;
+    grid-template-columns: 12fr;
+    padding: 0.8rem;
+  }
+  h4{
+    padding-top: 10px;
+    padding-left: 1.6rem;
+    font-size: 1rem;
+   }
+  p {
+    font-size: 15px;
+    padding-left: 1.6rem;
+  }
+  .main-footer-icon{
+    font-size: 1.5rem;
+  }
+  hr{
+    margin: 0px;
+  }
+  .first-content{
+    display: grid;
+    grid-template-columns: 12fr;
+    text-align: center;
+  }
+  .h2{
+    margin-top: 1.8rem;
+  }
+  .p1{
+    margin: 0px;
+  }
+  .p2{
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+  }
+  .section-1{
+    display: grid;
+    grid-template-columns: 12fr;
+    height: 130vh;
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+  }
+  .section-img{
+    height: 60vh;
+  }
+  .section-printedshirt{
+    height: 60vh;
+    background-size: cover;
+  }
+  .offer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    top: 500px;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 68, 0);
+    text-align: center;
+    padding: 5px;
+    font-size: 19px;
+    align-items: center;
+    text-align: center
+  }
+  .section-2{
+    display: grid;
+    grid-template-columns: 12fr;
+    margin: 0px;
+    height: 125vh;
+  }
+  .section-2img, .section-img2{
+    height: 60vh;
+  }
+  .section-3{
+    margin: 70px 0px 0px 0px;
+  }
+  .section-3 span{
+    margin-right: 1rem;
+  }
+  .section-4{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 30px;
+    margin: -50px 0px 0px 0px ;
+    height: 120vh;
+  }
+  .section-5{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin: 40px 0px 0px 0px ;
+    grid-gap: 30px;
+  }
+}
